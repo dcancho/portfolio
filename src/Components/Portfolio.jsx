@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio-cover.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "notebook and pen";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Pitagoras Social Network Service",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Lightweight social network service that allows users to create posts and interact with them. Developed with Vue and TailwindCSS, backend with ASP.NET and MongoDB. Made for an academic assignment.",
+    url: "https://github.com/dcancho/PitagorasSNS.App",
   },
   {
-    title: "Web Development for Beginners",
+    title: "PhoneResQ",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Team project for Web Applications Development course. PhoneResQ is a web application that allows users to request technical support for their mobile devices. Developed with Vue and ASP.NET.",
+    url: "https://github.com/DevInvent-Grupo-1-App-Web",
   },
   {
-    title: "My Resume Site",
+    title: "FurniGo",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Team project for Open Source Applications Development course. FurniGo is a web application that allows users request custom designs for furniture to workshops and carpentries. Developed with Angular and Spring Boot.",
+    url: "https://github.com/G4-FurniGo",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Pixela",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Team project for Computational Mathematics course. Pixela is a desktop application that allows users to apply blurring, Laplace and Sobel filters to images. Developed with .NET and WPF.",
+    url: "https://github.com/dcancho/Pixela",
   },
 ];
 
